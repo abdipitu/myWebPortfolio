@@ -7,6 +7,9 @@ module.exports = {
         'inter': ['Inter'],
         'poppins': ['Poppins'],
         'mulish': ['Mulish'],
+      },
+      colors: {
+        'web' : '#dadbdc',
       }
     },
   },
