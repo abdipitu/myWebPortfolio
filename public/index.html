@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="img/abdipitu.png">
+    <link rel="icon" href="img/abdipitu.png" />
     <link rel="stylesheet" href="output.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -171,7 +171,7 @@
       <p
         class="font-mulish text-slate-500 text-center mt-5 md:mt-10 mb-10 md:mb-14 lg:text-start text-base md:text-lg"
       >
-      If you have any needs, you can contact me here.
+        If you have any needs, you can contact me here.
       </p>
       <div class="font-poppins font-semibold space-y-2 w-full">
         <form action="https://formspree.io/your-email-here" method="post">
@@ -179,7 +179,9 @@
             class="flex flex-col md:flex-row md:gap-3 lg:gap-6 w-full md:mb-3"
           >
             <div class="font-normal w-full">
-              <label for="name" class="font-semibold">Nama <span class="text-red-600">*</span></label>
+              <label for="name" class="font-semibold"
+                >Nama <span class="text-red-600">*</span></label
+              >
               <input
                 type="text"
                 class="bg-web p-2 px-3 w-full font-mulish md:p-3 rounded-md text-zinc-700 focus:outline-none"
@@ -189,7 +191,9 @@
               />
             </div>
             <div class="font-normal w-full">
-              <label for="email" class="font-semibold">Email <span class="text-red-600">*</span></label>
+              <label for="email" class="font-semibold"
+                >Email <span class="text-red-600">*</span></label
+              >
               <input
                 type="email"
                 class="bg-web p-2 px-3 font-mulish w-full md:p-3 rounded-md text-zinc-700 focus:outline-none"
@@ -200,18 +204,20 @@
             </div>
           </div>
           <div class="font-normal">
-            <label for="name" class="font-semibold">Message <span class="text-red-600">*</span></label>
+            <label for="message" class="font-semibold"
+              >Message <span class="text-red-600">*</span></label
+            >
             <textarea
               type="text"
               class="w-full bg-web font-mulish p-3 h-32 rounded-md text-zinc-700 focus:outline-none"
               placeholder="type something..."
-              name="messege"
+              name="message"
               maxlength="150"
               required
             ></textarea>
           </div>
           <button
-            class="bg-zinc-700 text-white p-2 w-full md:p-3 mt-6 rounded-md"
+            class="bg-zinc-700 hover:bg-zinc-600 text-white p-2 w-full md:p-3 mt-6 rounded-md"
             type="submit"
           >
             Send Message
@@ -228,12 +234,12 @@
 
     <!-- footer -->
     <footer
-      class="min-h-24 border-t-2 flex flex-col justify-center items-center gap-4"
+      class="min-h-16 md:min-h-20 border-t-2 flex flex-row justify-center items-center gap-4 text-zinc-500"
       id="kontak"
     >
       <div class="flex flex-row space-x-3">
         <!-- instagram  -->
-        <a href="https://instagram.com/abdipitu/" target="_blank">
+        <a href="https://instagram.com/abdipitu/" target="_blank" class="hover:text-zinc-600">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="size-5 md:size-6"
@@ -249,7 +255,7 @@
           </svg>
         </a>
         <!-- github -->
-        <a href="https://github.com/abdipitu/" target="_blank">
+        <a href="https://github.com/abdipitu/" target="_blank" class="hover:text-zinc-600"> 
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="size-5 md:size-6"
@@ -265,14 +271,15 @@
           </svg>
         </a>
       </div>
-      <p class="text-sm md:text-base font-poppins">
-        ©2024 -
+      <p class="text-sm md:text-base font-poppins text-zinc-500">
+        ©2024
         <a
           href="https://instagram.com/abdipitu/"
-          class="font-semibold"
+          class="font-medium hover:text-zinc-600"
           target="_blank"
           >Abdipitu</a
         >
+        . All rights reserved
       </p>
     </footer>
   </body>
