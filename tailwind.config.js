@@ -9,6 +9,7 @@ module.exports = {
         'inter': ['Inter'],
         'poppins': ['Poppins'],
         'mulish': ['Mulish'],
+        'outfit': ['Outfit'],
       },
       colors: {
         'web' : '#dadbdc',
