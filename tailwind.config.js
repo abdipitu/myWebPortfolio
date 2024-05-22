@@ -2,7 +2,7 @@
 module.exports = {
   darkMode: 'class',
 
-  content: ["./public/index.html"],
+  content: ["./public/index.html", "./public/test.html"],
   theme: {
     extend: {
       fontFamily: {
