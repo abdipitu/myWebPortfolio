@@ -2,7 +2,7 @@
 module.exports = {
   darkMode: 'class',
 
-  content: ["./public/index.html"],
+  content: ["./*.{html,js}"],
   theme: {
     extend: {
       fontFamily: {
@@ -10,9 +10,13 @@ module.exports = {
         'poppins': ['Poppins'],
         'mulish': ['Mulish'],
         'outfit': ['Outfit'],
+        'sora': ['Sora'],
       },
       colors: {
         'web' : '#dadbdc',
+        'primary' : '#e5e5e5',
+        'secondary' : '#252525',
+        'tertiary' : '#737373',
       }
     },
   },
