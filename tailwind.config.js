@@ -11,6 +11,8 @@ module.exports = {
         'mulish': ['Mulish'],
         'outfit': ['Outfit'],
         'sora': ['Sora'],
+        'instrumental': ['Instrument Serif'],
+        'geist': ['Geist']
       },
       colors: {
         'web' : '#dadbdc',
