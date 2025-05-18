@@ -19,6 +19,9 @@ module.exports = {
         'primary' : '#e5e5e5',
         'secondary' : '#252525',
         'tertiary' : '#737373',
+      },
+      spacing: {
+        '128': '32rem',
       }
     },
   },

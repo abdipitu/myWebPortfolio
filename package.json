@@ -16,7 +16,8 @@
     "tailwindcss": "^3.4.1"
   },
   "dependencies": {
-    "bootstrap-icons": "^1.11.3"
+    "bootstrap-icons": "^1.11.3",
+    "remixicon": "^4.6.0"
   },
   "description": ""
 }
